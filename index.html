@@ -1,0 +1,382 @@
+<!--
+  Dropdown menu: https://www.youtube.com/watch?v=S-VeYcOCFZw&ab_channel=WebDevSimplified
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+    <div id="border-gradient">
+    <header>
+      <!-- DROPDOWN MENU-->
+      <div class="dropdown" data-dropdown>
+        <button class="link" data-dropdown-button>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </button>
+        <div class="dropdown-menu information-grid pop-up">
+          <div>
+            <div class="dropdown-heading">Izakaya</div>
+            <div class="dropdown-links">
+              <a href="/#" class="link">Cold Dishes</a>
+              <a href="/#" class="link">Hot Vegetables</a>
+              <a href="#" class="link">Hot Meat + Poultry</a>
+              <a href="#" class="link">Hot Fish + Seafood</a>
+              <a href="#" class="link">Donburi + Soup</a>
+            </div>
+          </div>
+          <div>
+            <div class="dropdown-heading">Sushi</div>
+            <div class="dropdown-links">
+              <a href="#" class="link">Sushi + Sashimi</a>
+              <a href="#" class="link">House Maki Rolls</a>
+              <a href="#" class="link">Ala Carte</a>
+            </div>
+          </div>
+          <div>
+            <div class="dropdown-heading">Drinks</div>
+            <div class="dropdown-links">
+              <a href="/#" class="link">Craft Cocktails</a>
+              <a href="#" class="link">Full Whisky List</a>
+              <a href="#" class="link">Beer</a>
+              <a href="#" class="link">Wine</a>
+              <a href="#" class="link">Tequila</a>
+              <a href="#" class="link">Sake + Shochu</a>
+              <a href="#" class="link">Non-Alcoholic</a>
+            </div>
+          </div>
+          <div>
+            <div class="dropdown-heading">Specials</div>
+            <div class="dropdown-links">
+              <a href="/#" class="link">Happy Hour</a>
+              <a href="/#" class="link">Lunch Set Course</a>
+              <a href="/#" class="link">World of Whisky</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--END OF DROPDOWN MENU-->
+    </header>
+    <section class="menu">
+      <div id="izakaya" class="menu-page">
+        <h1>IZAKAYA</h1>
+        <ul id="cold-dishes" class="submenu">
+          <h2>COLD DISHES</h2>
+          <div class="divider"></div>
+          <div class="menu-items">
+            <li><h3>Ahi Tataki<span class='price'>15</span></h3><p>seared tuna, wakame-daikon salad, garlic aioli and ponzu sauce</p></li>
+            <li><h3>Albacore Tataki<span class='price'>15</span></h3><p>seared albacore, shredded daikon w/ sweet white onion salad, yuzu aioli and ponzu sesame sauce oil, jalapeno, fresh grated ginger</p></li>
+            <li><h3>Hamachi Carpaccio<span class='price'>15</span></h3><p>thinly sliced hamachi garnished with jalapeno, sweet miso, chili oil, red onions, green onions, and ponzu</p></li>
+            <li><h3>Salmon Carpaccio<span class='price'>14</span></h3><p>thinly sliced king salmon sashimi, red onions, garnished with a creamy ginger sauce and tobiko</p></li>
+            <li><h3>Spicy Tuna Crispy Rice<span class='price'>14</span></h3><p>deep fried sushi rice, topped with spicy tuna, spicy aioli, unagi sauce</p></li>
+            <li><h3>Shooter<span class='price'>7 | 5 <span class="small-text light-text">FOR</span> 30</span></h3><p>your choice of hotate, uni, ikura, otoro, oyster, or pork belly and ali'i mushroom</p></li>
+            <li><h3>Beef Tataki<span class='price'>9</span></h3><p>seared beef with red onions, ponzu, garlic chips</p></li>
+            <li><h3>Tofu Poke<span class='price'>10</span></h3><p>firm local pressed tofu with avocado, red onions, tossed in Doraku poke sauce </p></li>
+            <li><h3>Niku Maki Trio<span class='price'>15</span></h3><p>thinly sliced ribeye marinade in ponzu with scallions, seared ribeye with garlic aioli and onions, ribeye and ebi w/ asparagus and avo</p></li>
+            <li><h3>Ahi Poke<span class='price'>16</span></h3><p>local hawaiian tuna, sweet onion, and macadamia nuts marinated in Doraku’s special poke sauce</p></li>
+            <li><h3>New Style Hamachi Sashimi<span class='price'>12</span></h3><p>for the connoisseur. hamachi with grated yamaimo served with habanero masago, mesclun greens and spicy vinaigrette</p></li>
+            <li><h3>Kushi Oysters on Half Shell<span class='price'>6 <span class='small-text light-text'>FOR</span> 24 | 12 <span class='small-text light-text'>FOR</span> 42</span></h3><p>served with wasabi cocktail sauce and ceviche sauce</p></li>
+            <li><h3>Oyster Shooter w/ Uni & Quail Egg<span class='price'>8</span></h3><p>for the connoisseur. fresh oysters served with uni, quail egg, scallion, ponzu, sesame oil, chili oil, and spicy grated daikon</p></li>
+            <li><h3>Sunomono<span class='price'>4</span></h3></li>
+            <li><h3>Tsukemono<span class='price'>5</span></h3></li>
+            <li><h3>Green Salad<span class='price'>5</span></h3></li>
+            <li><h3>Seaweed Salad<span class='price'>5</span></h3></li>
+          </div>
+        </ul>
+        <ul id="hot-vegetables" class="submenu">
+          <h2>HOT VEGETABLES</h2>
+          <div class="divider"></div>
+          <div class="menu-items">
+            <li><h3>Edamame<span class='price'>7</span></h3><p>with Hawaiian sea salt</p></li>
+            <li><h3>Garlic Teriyaki Edamame<span class='price'>8</span></h3><p>seared and tossed with garlic teriyaki sauce</p></li>
+            <li><h3>Sweet & Spicy Edamame<span class='price'>8</span></h3><p>seared and tossed with sweet spicy miso</p></li>
+            <li><h3>King Oyster Mushroom<span class='price'>12</span></h3><p>grilled organic eringii mushrooms, with spicy ponzu</p></li>
+            <li><h3>Crispy Brussels Sprouts<span class='price'>14</span></h3><p>tossed with candied walnuts, serrano peppers, and pickled onions</p></li>
+            <li><h3>Charred Shishito Peppers<span class='price'>8</span></h3><p>grilled with garlic butter </p></li>
+            <li><h3>Vegetable Tempura<span class='price'>14</span></h3><p>seasonal vegetables lightly battered and tempura fried, served with tentsuyu sauce</p></li>
+            <li><h3>Jumpin’ Cauliflower<span class='price'>9</span></h3><p>lightly tempura battered pan sauteed in a spicy chili sauce</p></li>
+            <li><h3>Eggplant Miso<span class='price'>9</span></h3><p>flash fried Asian eggplant with miso and garlic chips</p></li>
+            <li><h3>Agedashi Tofu<span class='price'>10</span></h3><p>ightly fried soft tofu with bonito flakes, green onions, ginger, daikon, served with dashi</p></li>
+            <li><h3>Umami Fries<span class='price'>8</span></h3><p>sweet shichimi dust and ketchup </p></li>
+            <li><h3>Inaka Sweet Corn<span class='price'>10</span></h3><p>grilled with creamy yuzu-queso, shichimi</p></li></div>
+        </ul>
+        <ul id="hot-meat-and-poultry" class="submenu">
+          <h2>HOT MEAT + POULTRY</h2>
+          <div class="divider"></div>
+          <div class="menu-items">
+            <li><h3>A-5 Japanese Wagyu<span class='price'>65</span></h3><p>5oz highest quality Japanese Miyazaki beef served with wasabi mashed potatoes and aspaagus</p></li>
+            <li><h3>Wafu Garlic Ribeye<span class='price'>25</span></h3><p>grilled and served with garlic ginger ponzu sauce, accompanied by sauteed mushrooms, beansprouts, and sweet onion</p></li>
+            <li><h3>Kobe Style Sliders<span class='price'>13</span></h3><p>served with umami fries, honey wasabi, ketchup</p></li>
+            <li><h3>Steak & Shishito Yakitori<span class='price'>10</span></h3><p>diced ribeye on skewer with housemade teriyaki. topped with garlic chips</p></li>
+            <li><h3>Jidori Chicken & Scallion Yakitori<span class='price'>14</span></h3><p>jidori chicken grilled with miso soy paste on skewer. topped with scallion</p></li>
+            <li><h3>Inaka Yakisoba<span class='price'><span class='small-text light-text'>PORK BELLY</span> 16 | <span class='small-text light-text'>CHICKEN</span> 20</span></h3><p>sauteed yakisoba noodles, garlic chips, shichimi</p></li>
+            <li><h3>Teppanyaki Beef Tongue<span class='price'>20</span></h3><p>Japanese delicacy, ponzu, chili oil, ginger, garlic, served on hot skille</p></li>
+            <li><h3>Jidori Chicken Teriyaki<span class='price'>18</span></h3><p>ender boneless jidori chicken glazed with teriyaki sauce and served over shredded cabbage</p></li>
+            <li><h3>Wagyu Beef Fried Rice<span class='price'>20</span></h3><p>fried rice prepared on hot skillet with steak, vegetables, garlic butter and chili ponzu +4 shrimp // subsitute for jidori chicken +6 </p></li>
+            <li><h3>Rack of Lamb<span class='price'>18</span></h3><p>marinated in garlic, rosemary and thyme and lightly encrusted with panko and served over wasabi mashed potatoes</p></li>
+            <li><h3>Jidori Chicken Ginger Kara-Age<span class='price'>12</span></h3><p>crispy jidori chicken, topped with daikon, beets, kaiware, and sesame seeds, served with a sweet chili soy sauce</p></li>
+            <li><h3>Garlic Chili Wings<span class='price'>10</span></h3><p>deep fried wings tossed in house made sweet shoyu sauce, garnish with serrano peppers and pickled onions</p></li></div>
+        </ul>
+        <ul id="hot-fish-and-seafood" class="submenu">
+          <h2>HOT FISH + SEAFOOD</h2>
+          <div class="divider"></div>
+          <div class="menu-items">
+            <li><h3>Spicy Garlic Prawns<span class='price'>13</span></h3><p>flash fried served over greens with sweet chiili soy and garlic aioli</p></li>
+            <li><h3>Mahi Mahi Nanbanzuke<span class='price'>15</span></h3><p>crispy tempura fried mahi mahi marinated in a yuzu chili ponzu. topped with 
+              cilantro, jalapeno, and red onion</p></li>
+            <li><h3>Mahi Mahi Nanbanzuke<span class='price'>20</span></h3><p>black cod glazed and baked with yuzu miso served with grilled 
+              shishito peppers, springmix, sesame seeds</p></li>
+            <li><h3>Grilled Ikayaki<span class='price'>15</span></h3><p>whole squid, served with spicy ponzu</p></li>
+            <li><h3>Grilled Ikayaki<span class='price'>14</span></h3><p>Japanese mackerel broiled and grilled</p></li>
+            <li><h3>Asari Clam Sakamushi<span class='price'>15</span></h3><p>live clam steamed with sake, mirin, and butter with ginger</p></li>
+            <li><h3>Pan Seared Salmon<span class='price'>15</span></h3><p>seared, served with asparagus and king mushrooms topped with 
+              lemon butter ponzu sauce, daikon, beets, green onion</p></li>
+            <li><h3>Lobster Tempura<span class='price'>18</span></h3><p>lobster and basil tempura fried, served with firecracker sauce</p></li>
+            <li><h3>Jumpin’ Shrimp<span class='price'>13</span></h3><p>shrimp and basil tempura fried, served with firecracker sauce</p></li>
+            <li><h3>Jumbo Shrimp Tempura<span class='price'>14</span></h3><p>tiger shrimp tempura fried, served with tentsuyu</p></li>
+            <li><h3>Shoyu Scallop & Pork Belly<span class='price'>19</span></h3><p>braised pork belly, roasted beets, brussels sprouts, balsamic vinaigrette</p></li>
+            <li><h3>Soft Shell Crab<span class='price'>12</span></h3><p></p></li>
+            <li><h3>Grilled Kama <span class='small-text light-text'>(LIMITED AVAILABILITY)</span><span class='price'><span class='small-text light-text'>SALMON</span> 10 |<span class='small-text light-text'>HAMACHI</span> 16</h3><p>served with ponzu</p></li>
+          </div>
+        </ul>
+        <ul id="donburi-and-soup" class="submenu">
+          <h2>DONBURI + SOUP</h2>
+          <div class="divider"></div>
+          <div class="menu-items">
+            <li><h3>Maguro Natto Don<span class='price'>18</span></h3><p>local big eye tuna with natto served over sushi rice</p></li>
+            <li><h3>Chirashi Don<span class='price'>22</span></h3><p>assorted sashimi served over sushi rice</p></li>
+            <li><h3>Ikura & Maguro Yamakake Don<span class='price'>18</span></h3><p>salmon roe and tuna with grated yamaimo, served over sushi rice</p></li>
+            <li><h3>Inaka Ochazuke<span class='price'>8</span></h3><p>Japanese style porridge with salmon and ume. served with dashi</p></li>
+            <li><h3>Negitoro Don<span class='price'>18</span></h3><p></p></li>
+            <li><h3>Ahi Zuke Don<span class='price'>15</span></h3><p></p></li>
+            <li><h3>Spicy Tuna Don<span class='price'>15</span></h3><p></p></li>
+            <li><h3>Uni & Ikura Don<span class='price'>25</span></h3><p></p></li>
+            <li><h3>Unagi Don<span class='price'>19</span></h3><p></p></li>
+            <li><h3>Traditional Miso Soup<span class='price'>4</span></h3><p></p></li>
+          </div>
+        </ul>
+      </div>
+      <div id="sushi">
+        <h1>SUSHI</h1>
+        <ul id="sushi-and-sashimi" class="submenu">
+          <h2>SUSHI AND SASHIMI</h2>
+          <div class="divider"></div>
+          <div class="menu-items">
+            <li><h3>Ultimate Bluefin Trio<span class='price'>88</span></h3><p style="margin-bottom: 1rem;">akami, chutoro, otoro (choice of nigiri or sashimi)</p>
+              <p style="margin-bottom: 1rem;">Bluefin tuna is a premium fish known for its high fat content, beautiful marbling, and tender texture you must experience.</p>
+              <p>Pairs perfectly with a bottle of our Aoki Junmai Ginjo sake, special is available only when ordered together.</p>
+            </li>
+            <li><h3>Sushi 8<span class='price'>25</span></h3><p>tuna, salmon, yellowtail, shrimp, kampachi, ika, ono, Daily Catch</p></li>
+            <li><h3>Sashimi 8<span class='price'>23</span></h3><p>tuna, salmon, yellowtail, Daily Catch</p></li>
+            <li><h3>Sushi + Sashimi<span class='price'>35</span></h3><p>nigiri - tuna, salmon, yellowtail, shrimp, ono, Daily Catchsashimi - tuna, salmon, Daily Catch</p></li>
+            <li><h3>Sushi + Sashimi Deluxe<span class='price'>46</span></h3><p>nigiri - tuna, salmon, yellowtail, shrimp, daily catch, uni, ono, unagisashimi - tuna, salmon, yellowtail, daily catch</p></li>
+            <li><h3>Sashimi Deluxe<span class='price'>35</span></h3><p>shiromi, ono, tuna, salmon, yellowtail, chutoro</p></li>
+            <li><h3>Sushi Nigiri Deluxe<span class='price'>43</span></h3><p>uni, ikura, hotate, unagi, tuna, salmon, yellowtail, shrimp, ika, kampachi, ono, daily catch</p></li>
+            <li><h3>Sapphire<span class='price'>200</span></h3><p>sashimi - tuna, salmon yellowtail, ono, Daily Catch
+              <p>rolls - Ultimate Spicy Tuna, Hamachi Garlic, God of Fire
+              <p>Doraku favorites - Ahi poke, Tuna Tataki, Edamame</p></li>
+            <li><h3>Platinum<span class='price'>250</span></h3><p>sashimi - otoro, hotate, kampachi, tuna, salmon</p>
+              <p>nigiri - tuna, salmon, yellowtail</p>
+              <p>rolls - Ultimate Spicy Tuna, Hamachi Garlic, Black Peppered Ahi</p>
+              <p>Doraku favorites - Ahi poke</p></li>
+          </div>
+        </ul>
+        <ul id="deluxe-maki-rolls" class="submenu">
+          <h2>DELUXE MAKI ROLLS</h2>
+          <div class="divider"></div>
+          <div class="menu-items">
+            <li><h3>God of Fire Roll<span class='price'>18</span></h3><p>spicy tuna roll with cucumber and jalapeno topped with tuna sashimi, habanero tobiko and spicy garlic aioli</p></li>
+            <li><h3>Hamachi Garlic Roll <span class='price'>18</span></h3><p>shrimp tempura and avocado topped with hamachi, finished with kabayaki, garlic aioli, and ao nori</p></li>
+            <li><h3>Ultimate Spicy Tuna Roll<span class='price'>18</span></h3><p>shrimp tempura, spicy tuna, and avocado topped with unagi, finished with kabayaki, spicy aioli, and red tobiko</p></li>
+            <li><h3>Firecracker Roll<span class='price'>18</span></h3><p>hamachi, avocado, cucumber topped with hamachi, spicy aioli, tempura flakes, chili sauce</p></li>
+            <li><h3>Black Peppered Ahi<span class='price'>18</span></h3><p>spicy crab, cucumber, avocado, kaiware topped with peppered ahi, sweet and spicy ponzu and cilantro </p></li>
+            <li><h3>Steak & Lobster Roll<span class='price'>20</span></h3><p>avocado, lobster, and asparagus topped with seared ribeye, garlic aioli, kabayaki sauce and ao nor</p></li>
+            <li><h3>Vegan Roll<span class='price'>16</span></h3><p>avocado, asparagus, spring mix, tomato, and cucumber rolled in green soy paper served with a side of ginger dressing</p></li>
+            <li><h3> Double Happiness <span class='small-text light-text'>(NO RICE)</span><span class='price'>18</span></h3><p>tuna, salmon, scallop, squid, shrimp, crab, shiso, kaiware, wrapped with cucumber nori, topped with garlic aioli, tobiko and ponzu sauce</p></li>
+            <li><h3> Emperor* <span class='small-text light-text'>(NO RICE)</span><span class='price'>17</span></h3><p>tuna, salmon, shrimp, avocado, crab and panko fried, topped with crispy sweet onion, unagi sauce, spicy aioli, and tobiko</p></li>
+            <li><h3>Crispy Eel Roll<span class='price'>18</span></h3><p>eel, crab, and avocado topped with salmon, bonito, kabayaki saucespicy aioli</p></li>
+            <li><h3>Doraku Salmon<span class='price'>20</span></h3><p>garlic aioli seared salmon, blanched asparagus, avocado, shrimp tempura,lemon slices, kabayaki, tobiko, green onion, tograshi</p></li>
+            <li><h3>Wafu Spicy Tuna<span class='price'>21</span></h3><p>spicy tuna, kabayaki, takuwan, shiso </p></li>
+          </div>
+        </ul>
+        <ul id="ala-carte" class="submenu">
+          <h2>ALA CARTE</h2>
+          <div class="divider"></div>
+          <div> <!-- REMOVED menu-items CLASS for single column format -->
+            <li><h3>Amaebi<span class="light-text"> - sweet shrimp</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 18 | 
+              <span class='small-text light-text'>SASHIMI</span> 36
+            </span>
+            </h3></li>
+            <li><h3>Avocado<span class="light-text"></span><span class='price'>
+              <span class='small-text light-text'>MAKI</span> 8
+            </span>
+            </h3></li>
+            <li><h3>California<span class="light-text"></span><span class='price'>
+              <span class='small-text light-text'>MAKI</span> 9
+            </span>
+            </h3></li>
+            <li><h3>Chutoro<span class="light-text"> - light fatty tuna</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 16 | 
+              <span class='small-text light-text'>SASHIMI</span> 32
+            </span>
+            </h3></li>
+            <li><h3>Cucumber<span class="light-text"></span><span class='price'>
+              <span class='small-text light-text'>MAKI</span> 6
+            </span>
+            </h3></li>
+            <li><h3>Ebi<span class="light-text"> - black tiger shrimp</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 12 | 
+              <span class='small-text light-text'>SASHIMI</span> 24
+            </span>
+            </h3></li>
+            <li><h3>Hamachi<span class="light-text"> - yellowtail</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 10 | 
+              <span class='small-text light-text'>SASHIMI</span> 20 |
+              <span class='small-text light-text'>MAKI</span> 11
+            </span>
+            </h3></li>
+            <li><h3>Hotate<span class="light-text"> - Japanese scallop</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 11 | 
+              <span class='small-text light-text'>SASHIMI</span> 22
+            </span>
+            </h3></li>
+            <li><h3>Ika<span class="light-text"> - squid</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 10 | 
+              <span class='small-text light-text'>SASHIMI</span> 20
+            </span>
+            </h3></li>
+            <li><h3>Ikura<span class="light-text"> - salmon roe</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 10
+            </span>
+            </h3></li>
+            <li><h3>Kampachi<span class="light-text"> - Hawaiian amber jack</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 10 | 
+              <span class='small-text light-text'>SASHIMI</span> 20
+            </span>
+            </h3></li>
+            <li><h3>King Salmon<span class="light-text"> - New Zealand</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 10 | 
+              <span class='small-text light-text'>SASHIMI</span> 20 |
+              <span class='small-text light-text'>MAKI</span> 10
+            </span>
+            </h3></li>
+            <li><h3>Kinmedai<span class="light-text"> - golden eye Japanese snapper</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 12 | 
+              <span class='small-text light-text'>SASHIMI</span> 22 
+            </span>
+            </h3></li>
+            <li><h3>Maguro<span class="light-text"> - bigeye tuna</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 10 | 
+              <span class='small-text light-text'>SASHIMI</span> 20 |
+              <span class='small-text light-text'>MAKI</span> 9
+            </span>
+            </h3></li>
+            <li><h3>Masago<span class="light-text"> - smelt fish roe</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 8
+            </span>
+            </h3></li>
+            <li><h3>Nairagi<span class="light-text"> - Hawaiian marlin</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 9 | 
+              <span class='small-text light-text'>SASHIMI</span> 18
+            </span>
+            </h3></li>
+            <li><h3>Negi Hama<span class="light-text"> - yellowtail with scallion</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 12 |
+              <span class='small-text light-text'>MAKI</span> 9
+            </span>
+            </h3></li>
+            <li><h3>Negitoro<span class="light-text"> - fatty tuna with scallion</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 12
+            </span>
+            </h3></li>
+            <li><h3>Ono<span class="light-text"> - wahoo</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 10 | 
+              <span class='small-text light-text'>SASHIMI</span> 20
+            </span>
+            </h3></li>
+            <li><h3>Otoro<span class="light-text"> - fatty tuna</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 22 | 
+              <span class='small-text light-text'>SASHIMI</span> 44
+            </span>
+            </h3></li>
+            <li><h3>Salmon Jalapeno<span class="light-text"></span><span class='price'>
+              <span class='small-text light-text'>MAKI</span> 11
+            </span>
+            </h3></li>
+            <li><h3>Shima Aji <span class="light-text"> - Japanese stripe jack</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 10 | 
+              <span class='small-text light-text'>SASHIMI</span> 18
+            </span>
+            </h3></li>
+            <li><h3>Spicy Tuna<span class="light-text"></span><span class='price'>
+              <span class='small-text light-text'>MAKI</span> 11
+            </span>
+            </h3></li>
+            <li><h3>Tako<span class="light-text"> - Pacific octopus</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 10 | 
+              <span class='small-text light-text'>SASHIMI</span> 20
+            </span>
+            </h3></li>
+            <li><h3>Tamago<span class="light-text"> - sweet Japanese egg</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 10 | 
+              <span class='small-text light-text'>SASHIMI</span> 14
+            </span>
+            </h3></li>
+            <li><h3>Tobiko<span class="light-text"> - flying fish roe</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 8
+            </span>
+            </h3></li>
+            <li><h3>Unagi<span class="light-text"> - fresh water eel</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 10 | 
+              <span class='small-text light-text'>SASHIMI</span> 20
+            </span>
+            </h3></li>
+            <li><h3>Uni<span class="light-text"> - sea urchin</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 20 | 
+              <span class='small-text light-text'>SASHIMI</span> 40
+            </span>
+            </h3></li>
+            <li><h3>Natto Deluxe<span class="light-text"></span><span class='price'>
+              <span class='small-text light-text'>MAKI</span> 9
+            </span>
+            </h3></li>
+            <li><h3>Zuke Maguro<span class="light-text"> - marinated tuna</span><span class='price'>
+              <span class='small-text light-text'>NIGIRI</span> 12 | 
+              <span class='small-text light-text'>SASHIMI</span> 19
+            </span>
+            </h3></li>
+          </div>
+        </ul>
+      </div>
+<!--      <div id="desserts">
+        <h2>HAPPY ENDING DESSERTS</h2>
+        <ul id="happy-ending-desserts" class="submenu">
+          <li><h3><span class='price'></span></h3><p></p></li>
+          <li><h3><span class='price'></span></h3><p></p></li>
+          <li><h3><span class='price'></span></h3><p></p></li>
+          <li><h3><span class='price'></span></h3><p></p></li>
+          <li><h3><span class='price'></span></h3><p></p></li>
+          <li><h3><span class='price'></span></h3><p></p></li>
+        </ul>
+      </div>
+-->
+    </section>
+  </main>
+    <footer>
+      <!--BACK TO TOP BUTTON-->
+    <a href="/#" class="pop-up" id="back-to-top">Back to Top</a>
+    <p id="footer-text">© 2022 AOKI GROUP INC. ALL RIGHTS RESERVED</p>
+    </footer>
+  </body>
+</html>

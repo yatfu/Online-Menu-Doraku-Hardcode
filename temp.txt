@@ -1,0 +1,13 @@
+    <div class="menu-item">
+      <h2 class="menu-item-title"></h2>
+      <img class="menu-item-image" />
+      <p class="menu-item-desc"></p>
+    </div>
+    <footer id="footer">
+
+    </footer>
+
+cargo
+
+projects:
+real estate 3d render in web
